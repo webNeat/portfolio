@@ -1,0 +1,30 @@
+doctype html
+html(data-ng-app="wn")
+  head
+    meta(charset="utf-8")
+    title webNeat's Portfolio
+    link(rel="stylesheet", href="styles/app.css")
+  body
+    nav.navbar.navbar-default
+      .container-fuild
+        .navbar-header
+          button.navbar-toggle.collapsed(
+            type="button",
+            data-toggle="collapse",
+            data-target="#navbar",
+            aria-expanded="false")
+            span.sr-only Toggle navbar
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href="#/") wn
+        .collapse.navbar-collapse(id="navbar")
+          ul.nav.navbar-nav
+            li: a(href="#") Projects
+            li: a(href="#") Contact
+          ul.nav.navbar-nav.navbar-right
+            li.active: a(href="#") Hire Me
+    .container
+      div(ng-view="")
+    script(src="scripts/vendors.js")
+    script(src="scripts/app.js")

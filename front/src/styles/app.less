@@ -1,0 +1,120 @@
+@import "bootstrap.less";
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+@blue: #4FA5C7;
+
+@grid-gutter-width: 10px;
+@border-radius-base: 0px;
+
+@body-bg:               #111;
+@text-color:            #fff;
+
+@headings-font-family:    'Lato';
+@headings-font-weight:    400;
+@headings-line-height:    1.1;
+@headings-color:       #fff;
+
+@navbar-border-radius:  0px;
+@navbar-default-color:  #fff;
+@navbar-default-bg:     #222;
+@navbar-default-border: #111;
+
+// Navbar links
+@navbar-default-link-color:                #fff;
+@navbar-default-link-hover-color:          #fff;
+@navbar-default-link-hover-bg:             #191919;
+@navbar-default-link-active-color:         #fff;
+@navbar-default-link-active-bg:            #191919;
+
+// Navbar brand label
+@navbar-default-brand-color:               @navbar-default-link-color;
+@navbar-default-brand-hover-color:         darken(@navbar-default-brand-color, 10%);
+@navbar-default-brand-hover-bg:            transparent;
+
+// Navbar toggle
+@navbar-default-toggle-hover-bg:           #ddd;
+@navbar-default-toggle-icon-bar-bg:        #888;
+@navbar-default-toggle-border-color:       #ddd;
+
+@badge-border-radius: 1px;
+
+.string {
+    color: #E6DB74;
+}
+
+.about {
+    .string;
+    font-size: 15pt;
+    text-align: justify;
+}
+
+.language {
+    display: block;
+    margin: 5px;
+    padding-left: 20px;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    background: #222;
+    color: #fff;
+    font-size: 14pt;
+    font-family: Lato;
+}
+
+.language:hover, .language:focus {
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+}
+
+.wn-progress-bar {
+    background: #222;
+    border-radius: 5px;
+    height: 30px;
+    margin: 5px;
+    padding: 0px;
+
+    .wn-progress {
+        border-radius: 5px 0px 0px 5px;
+        height: 30px;
+        background: #4FA5C7;
+        color: #fff;
+        padding-left: 20px;
+        line-height: 30px;
+        font-size: 14pt;
+        font-family: Lato;
+    }
+
+    .wn-progress-1 {
+        .wn-progress;
+        width: 20%;
+    }
+
+    .wn-progress-2 {
+        .wn-progress;
+        width: 40%;
+    }
+
+    .wn-progress-3 {
+        .wn-progress;
+        width: 60%;
+    }
+
+    .wn-progress-4 {
+        .wn-progress;
+        width: 80%;
+    }
+
+    .wn-progress-5 {
+        .wn-progress;
+        width: 95%;
+    }
+}
+
+.bg-blue {
+    background: @blue;
+}
+.bg-orange {
+    background: #F5961A;
+}

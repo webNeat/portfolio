@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"wn-",
+				"wn-progress-bar"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"col",
+				"col-md-9"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"pro",
+				"projects"
+			],
+			[
+				"navba",
+				"navbar-nav"
+			],
+			[
+				"b",
+				"bower_components"
+			],
+			[
 				"resol",
 				"resolve"
 			],
@@ -214,10 +246,6 @@
 			[
 				"arra",
 				"arrayFormat"
-			],
-			[
-				"b",
-				"booleanFormat"
 			],
 			[
 				"number",
@@ -486,44 +514,56 @@
 			[
 				"ty",
 				"typeHash"
-			],
-			[
-				"show",
-				"showAds"
-			],
-			[
-				"set",
-				"set1Countries"
-			],
-			[
-				"prin",
-				"print_r"
-			],
-			[
-				"var",
-				"var_dump"
-			],
-			[
-				"curre",
-				"currentUser  (variable)"
-			],
-			[
-				"user",
-				"currentUser  (variable)"
-			],
-			[
-				"yt_co",
-				"yt_comment_users"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "wn-front.sublime-project",
+			"file": "src/styles/app.less",
 			"settings":
 			{
-				"buffer_size": 76,
+				"buffer_size": 2416,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/webneat/.config/sublime-text-3/Packages/Seti_UI/Scheme/Seti_monokai.tmTheme",
+			"settings":
+			{
+				"buffer_size": 24410,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/views/home.jade",
+			"settings":
+			{
+				"buffer_size": 650,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/websites/wn/about/models.txt",
+			"settings":
+			{
+				"buffer_size": 1571,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulp/config.json",
+			"settings":
+			{
+				"buffer_size": 1573,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower_components/bootstrap/less/variables.less",
+			"settings":
+			{
+				"buffer_size": 27365,
 				"line_ending": "Unix"
 			}
 		}
@@ -535,10 +575,30 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 273.0,
-		"last_filter": "",
+		"height": 400.0,
+		"last_filter": "cp",
 		"selected_items":
 		[
+			[
+				"cp",
+				"Color Picker"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
 			[
 				"upp",
 				"Convert Case: Upper Case"
@@ -570,10 +630,6 @@
 			[
 				"nf",
 				"ANF: New File"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"impo",
@@ -644,7 +700,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 475.0
+		"width": 457.0
 	},
 	"console":
 	{
@@ -669,9 +725,27 @@
 	},
 	"expanded_folders":
 	[
+		"/var/www/websites/wn/front"
 	],
 	"file_history":
 	[
+		"/home/webneat/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+		"/home/webneat/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/var/www/websites/wn/front/src/scripts/app.js",
+		"/var/www/websites/wn/front/src/scripts/controllers/home.js",
+		"/var/www/websites/wn/front/src/index.jade",
+		"/var/www/websites/wn/front/bower.json",
+		"/var/www/websites/wn/front/gulp/config.json",
+		"/var/www/html/cv/src/style.less",
+		"/var/www/websites/wn/front/src/styles/variables.less",
+		"/var/www/websites/wn/front/src/styles/app.less",
+		"/var/www/websites/wn/front/gulp/tasks/vendors.js",
+		"/var/www/websites/wn/front/gulp/tasks/defaults.js",
+		"/var/www/websites/wn/front/.editorconfig",
+		"/var/www/websites/wn/front/package.json",
+		"/var/www/websites/wn/about/front-files.txt",
+		"/home/webneat/workspace/cern/lab/fastjs/package.json",
+		"/var/www/websites/wn/front/wn-front.sublime-project",
 		"/var/www/websites/wn/api/.gitignore",
 		"/var/www/websites/wn/about/models.txt",
 		"/var/www/websites/wn/public/index.html",
@@ -782,28 +856,11 @@
 		"/home/webneat/workspace/ss/run",
 		"/home/webneat/workspace/ss/src/Snippet.php",
 		"/tmp/json.txt",
-		"/home/webneat/workspace/challenges/codejam/cj2015/round1B/solutions/codejam31.js",
-		"/home/webneat/workspace/challenges/codejam/cj2015/round1B/solutions/main.py",
-		"/home/webneat/Bureau/json.txt",
-		"/home/webneat/Bureau/nationalities.txt",
-		"/home/webneat/workspace/ss/src/Runner.php",
-		"/home/webneat/workspace/ss/snippets/cpp/struct.snpt",
-		"/home/webneat/workspace/ss/about/syntax.txt",
-		"/home/webneat/workspace/ss/about/structure.txt",
-		"/home/webneat/workspace/ss/about/grammar.txt",
-		"/home/webneat/.bashrc",
-		"/home/webneat/commands/scripts/mkfiles",
-		"/home/webneat/commands/src/php/vendors/wn/data/Data.php",
-		"/home/webneat/commands/src/php/archive/generator/templates/cpp/{{name#cctu}}.cpp",
-		"/home/webneat/workspace/cpp/lab/template_2.cpp",
-		"/home/webneat/commands/src/php/archive/generator/classes/Generator.php",
-		"/home/webneat/commands/src/php/vendors/wn/data/Interfaces.php",
-		"/home/webneat/commands/src/php/vendors/wn/data/spec/test.php",
-		"/home/webneat/commands/src/php/about.txt"
+		"/home/webneat/workspace/challenges/codejam/cj2015/round1B/solutions/codejam31.js"
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -818,6 +875,30 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"about_en",
+			"a(href=\"#/\")",
+			"languages/",
+			"\"):",
+			".language",
+			"wn-progress-bar: .wn-progress-3",
+			"wn-progress-bar: .wn-progress-4",
+			".wn-progress-bar: .wn-progress-5",
+			".progress",
+			"markup",
+			".width",
+			"5",
+			"transparent",
+			"@body-bg",
+			"heading",
+			"heading-colo",
+			"head",
+			"row",
+			"Controller'",
+			"Controller",
+			"HomeController",
+			"Navbar",
+			"\";\n",
+			"nav",
 			"triangle",
 			"class",
 			",]",
@@ -921,31 +1002,7 @@
 			"'",
 			"=>",
 			"find",
-			"$this->",
-			"flag",
-			"element",
-			"is_array",
-			"&amp;",
-			"href=\"",
-			"href=\"[^\"]+",
-			"<option[^>]+",
-			"class='video'",
-			"[a-z]+",
-			"language",
-			"method.arguments[0]",
-			"method.arguments",
-			";",
-			"echo",
-			"clean",
-			"load",
-			"dialog",
-			"modif",
-			"delete",
-			"id",
-			"part",
-			"su",
-			"afficher_div",
-			"prin"
+			"$this->"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -963,35 +1020,201 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "wn-front.sublime-project",
+					"file": "src/styles/app.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 76,
+						"buffer_size": 2416,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								47,
-								19
+								2416,
+								2416
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2103.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/webneat/.config/sublime-text-3/Packages/Seti_UI/Scheme/Seti_monokai.tmTheme",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24410,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1237,
+								1237
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 493.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/views/home.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 650,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 46.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/websites/wn/about/models.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5,
+								5
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "gulp/config.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								711,
+								711
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 562.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "bower_components/bootstrap/less/variables.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25201,
+								25201
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 17450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1053,6 +1276,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"varial.less",
+				"front/bower_components/bootstrap/less/variables.less"
+			],
 			[
 				"ind",
 				"public/index.html"
@@ -1236,7 +1463,7 @@
 		[
 			[
 				"",
-				"~/workspace/java/PPRJ/protege.sublime-project"
+				"/var/www/websites/wn/api/wn-api.sublime-project"
 			],
 			[
 				"gra",
@@ -1282,11 +1509,11 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 295.0,
+	"side_bar_visible": false,
+	"side_bar_width": 291.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

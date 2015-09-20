@@ -1,0 +1,71 @@
+{
+  "folders": {
+    "src": "src",
+    "build": "build"
+  },
+
+  "app": {
+    "views": [
+      {
+        "src": "src/index.jade",
+        "dest": "build/index.html"
+      },
+      {
+        "src": ["src/views/*.jade", "src/views/**/*.jade"],
+        "dest": "build/views"
+      }
+    ],
+    "scripts": [
+      {
+        "src": [
+          "src/scripts/app.js",
+          "src/scripts/**/*.js"
+        ],
+        "dest": "build/scripts/app.js"
+      }
+    ],
+    "styles": {
+      "src": "src/styles/app.less",
+      "path": [
+        "src/styles", 
+        "bower_components/bootstrap/less", 
+        "bower_components"
+      ],
+      "dest": "build/styles/app.css"
+    },
+    "imgs": {
+      "src": "src/imgs/*",
+      "dest": "build/imgs"
+    }
+  },
+
+  "vendors": {
+    "base": {
+      "js": {
+        "src": [
+          "bower_components/jquery/dist/jquery.js",
+          "bower_components/bootstrap/dist/js/bootstrap.js",
+          "bower_components/angular/angular.js",
+          "bower_components/angular-route/angular-route.js",
+          "bower_components/lodash/lodash.js",
+          "bower_components/restangular/dist/restangular.js"
+        ],
+        "dest": "build/scripts/vendors.js"
+      },
+      "css": {
+        "src": [
+          "bower_components/fontawesome/css/font-awesome.css"
+        ],
+        "dest": "build/styles/vendors.css"
+      },
+      "fonts": {
+        "src": [
+          "bower_components/fontawesome/fonts/*",
+          "bower_components/bootstrap/fonts/*"
+        ],
+        "dest": "build/fonts"
+      },
+      "less": {}
+    }
+  }
+}
