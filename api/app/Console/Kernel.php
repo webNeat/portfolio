@@ -13,7 +13,9 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
+        'App\Console\Commands\WnModelCommand',
+        'App\Console\Commands\WnMigrationCommand',
+        'App\Console\Commands\WnResourceCommand'
     ];
 
     /**
